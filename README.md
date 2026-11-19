@@ -44,7 +44,7 @@ autumn/
 `autumn` uses the standard `skills/<name>/SKILL.md` layout and works across harnesses. Paste this into your agent to install it:
 
 ```text
-Install autumn from <repo-url-or-path> into this harness: install the skills under skills/ and merge AGENTS.md into my global agent instructions.
+Install autumn from https://github.com/m1u0/autumn into this harness: install the skills under skills/ and merge AGENTS.md into my global agent instructions.
 ```
 
 ## Maintenance Discipline (Built for Deletion)
