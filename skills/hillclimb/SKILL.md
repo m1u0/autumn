@@ -1,6 +1,6 @@
 ---
 name: hillclimb
-description: Use when a task benefits from iterative generate-evaluate-keep cycles to push quality or performance higher—whether against a measurable metric (benchmarks, ML, SQL, simulations, eval sets), a qualitative bar (UI/UX, 3D/visual renders, writing, decks, strategy), or both. Not for one-off fixes or objective fact-checking.
+description: Use when a task benefits from iterative improvement cycles against a metric (benchmarks, ML, SQL, evals), a qualitative bar (UI/UX, 3D renders, writing, decks), or both. Not for one-off fixes or fact-checking.
 ---
 
 # Hillclimb
@@ -11,6 +11,7 @@ Iterative improvement works when generation and evaluation are cleanly separated
 
 - **Separate mutable from immutable.** Fix what you can change (the artifact, code, draft, scene, prompt) and what stays frozen (the eval, test suite, constraints, or rubric). Never relax the bar to manufacture a win.
 - **Capture a baseline** before changing anything so every round compares against reality.
+- **Signal long runs upfront.** When starting a multi-round or long-running loop, briefly tell the user upfront so they know to expect extended runtime.
 - **Split orchestrator vs. executor by horizon:**
   - *Short loops (typical for taste):* the main agent edits directly and hands off to a fresh reviewer subagent each round, preserving user nuance.
   - *Long loops (typical for objective):* the main agent stays a pure orchestrator owning the frozen eval, experiment log, and hypothesis selection, dispatching fresh workers for individual attempts so context stays clean.

@@ -1,6 +1,6 @@
 ---
 name: grounded-judgment
-description: Use when the user asks for opinionated advice or a recommendation requiring significant non-objective judgment—strategy, game-theoretic or career/business calls, architecture or tooling tradeoffs, policy/product direction, or frontier technical opinions. Not for neutral background surveys or objective fact lookups.
+description: Always use when the user asks for a recommendation, critique, or judgment call ("should I...", "X vs Y", "what's the best...", tradeoffs, audits) across strategy, tech, product, career, or policy. Not for neutral facts.
 ---
 
 # Grounded Judgment
@@ -13,6 +13,7 @@ Before forming a view, research what high-credibility people with real skin in t
 
 - Seek primary sources and practitioners actively operating at the frontier—operators, builders, domain experts, postmortems, primary analyses, filings, empirical studies, or canonical write-ups relevant to the domain.
 - Trace important claims upstream when secondary summaries conflict or feel thin.
+- If primary sources cannot be accessed, state that grounding gap upfront rather than presenting stale priors as current consensus.
 
 ## 2. Weigh—Don't Average
 

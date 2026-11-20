@@ -1,6 +1,6 @@
 ---
 name: frame
-description: Use when a request has meaningful ambiguity, irreversible stakes, or a premise worth sharpening before acting—or when the user asks to be grilled or challenged on a plan. Not for routine tasks where sensible defaults are reversible (act autonomously instead).
+description: Use before acting on high-stakes, irreversible, or meaningfully ambiguous requests—or when asked to sharpen or challenge a plan ("grill me", "poke holes", "think this through"). Not for routine, reversible work.
 ---
 
 # Frame
@@ -26,4 +26,4 @@ If the request leaves obvious leverage on the table, briefly consider what a top
 
 - Ask what genuinely merits user input rather than exhausting every branch; scale depth to the stakes and how thorough the user wants to be.
 - Attach a **clear recommended default** to each question, phrased so "yes" accepts your defaults and lets you proceed immediately.
-- Once the key decisions are settled, stop framing and execute (handing off to `run-to-done` or `hillclimb` if the work calls for it).
+- Once the key decisions are settled, stop framing and execute (handing off to an execution or optimization skill if available and the work calls for it).

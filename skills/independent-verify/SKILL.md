@@ -1,6 +1,6 @@
 ---
 name: independent-verify
-description: Use for high-stakes tasks with an objective right answer where a single uncaught error is costly—exam or homework grading, math/financial/tax calculations, structured data extraction, logic/formal proofs, or deterministic bug verification. Not for subjective judgment or iterative polishing.
+description: Use whenever high-stakes accuracy matters and there is an objective right answer—grading, math/financial/tax calcs, data extraction, proofs, or bug checks ("double-check this"). Not for subjective judgment or polish.
 ---
 
 # Independent Verify
@@ -23,7 +23,7 @@ Do **not** solve the problem in the main thread first, and do **not** inject a h
 Sandboxing applies to **both prompts and workspace/state**:
 
 - Give each worker only the clean raw problem, source data, and required output format.
-- Isolate workspaces and scratch files so workers cannot read each other's outputs, logs, or revision history.
+- Isolate workspaces and scratch state so workers cannot read each other's outputs, logs, or prior history.
 - Do not frame the task as "check another agent" or "win a panel"—just ask each worker to solve it cleanly, provide supporting evidence/checks, and flag any genuine ambiguities in the source inputs.
 
 ## 3. Compare and Adjudicate

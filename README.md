@@ -14,7 +14,7 @@ Most agent setups micromanage *how* models think inside a turn—stacking brittl
 - **Goal-first, minimal steering.** State what done looks like and what boundaries hold; let the model use its judgment on how to get there.
 - **Knowledge sandboxing & verification at the core.** Self-evaluation in a shared context is systematically optimistic, and single-path reasoning has correlated blind spots. Clean prompt *and* workspace boundaries fix both structurally.
 - **Lean autonomy.** Bias toward action on reversible work, pause only on irreversible boundaries, and keep active agents small (1–3 max).
-- **Model-invoked, low context load.** Five orthogonal skills with crisp trigger boundaries so always-on overhead stays tiny and agents pull the right trigger reliably.
+- **Low context load, flexible invocation.** Five orthogonal skills with crisp trigger boundaries so always-on overhead stays tiny—whether invoked explicitly by the user or triggered by the agent.
 
 ## Structure
 
