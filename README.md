@@ -8,7 +8,7 @@ Most agent setups micromanage *how* models think inside a turn—stacking brittl
 
 `autumn` is designed with future, more capable models in mind, betting on what stays durable:
 
-> **Don't micromanage how a model thinks inside a turn. Control what each agent can see and how results are checked across turns.**
+> **Don't micromanage how a model thinks inside a turn. Engineer what information each agent sees and how results are checked across turns.**
 
 - **General-purpose first.** Works across software engineering, deep research, strategic/game-theoretic analysis, writing, visual/3D design, math, and personal ops.
 - **Goal-first, minimal steering.** State what done looks like and what constraints hold; let the model use its judgment on how to get there.
